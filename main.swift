@@ -12,6 +12,8 @@ return result
 
   for i in 1...3 {  
     
-    print (sayRan(num :2, num2: 3))
+    let resultA = sayRan(num :2*i , num2: 3*i)
+    
+    print (resultA)
     
   }
